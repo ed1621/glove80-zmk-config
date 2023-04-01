@@ -150,7 +150,7 @@
   &kp GRAVE       &kp Q       &kp W        &kp F    &kp P   &kp B                                                                           &kp J   &kp L      &kp U     &kp Y  &kp SEMI  &kp EQUAL
     &kp TAB  &mt LGUI A  &mt LALT R  &mt LCTRL S  &lt 4 T   &kp G                                                                           &kp M   &kp N      &mt LCTRL E     &mt LALT I     &mt LGUI O    &kp SQT
     &lambda       &kp Z       &kp X        &kp C    &kp D   &kp V        &kp LPAR   &kp RPAR   &none  &kp LGUI  &kp LBKT         &kp RBKT   &kp K   &kp H  &kp COMMA   &kp DOT  &kp FSLH   &kp BSLH
- &magic 2 0    &kp HOME     &kp END     &kp LEFT  &kp ESC          &mt LSHFT BSPC  &kp MINUS   &mo 1     &mo 3   &mt LSHIFT SPACE  &kp RET          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT  &kp PG_DN
+ &magic 2 0    &kp HOME     &kp END     &kp LEFT  &kp ESC          &mt LSHFT BSPC  &kp MINUS   &mo 1     &mo 3   &kp RET  &mt LSHFT SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT  &kp PG_DN
             >;
         };
 
