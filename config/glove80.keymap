@@ -143,13 +143,13 @@
         compatible = "zmk,keymap";
 
 
-        layer_Base {
+        layer_Colmak {
             bindings = <
      &kp F1      &kp F2      &kp F3       &kp F4   &kp F5                                                                                          &kp F6     &kp F7    &kp F8    &kp F9    &kp F10
       &none       &none       &none        &none    &none   &none                                                                           &none   &none      &none     &none     &none      &none
   &kp GRAVE       &kp Q       &kp W        &kp F    &kp P   &kp B                                                                           &kp J   &kp L      &kp U     &kp Y  &kp SEMI  &kp EQUAL
     &kp TAB  &mt LGUI A  &mt LALT R  &mt LCTRL S  &lt 4 T   &kp G                                                                           &kp M   &kp N      &mt LCTRL E     &mt LALT I     &mt LGUI O    &kp SQT
-    &lambda       &kp Z       &kp X        &kp C    &kp D   &kp V        &kp LPAR   &kp RPAR   &none  &kp RET  &kp LBKT         &kp RBKT   &kp K   &kp H  &kp COMMA   &kp DOT  &kp FSLH   &kp BSLH
+    &lambda       &kp Z       &kp X        &kp C    &kp D   &kp V        &kp LPAR   &kp RPAR   &none  &kp RET  &to 5         &kp RBKT   &kp K   &kp H  &kp COMMA   &kp DOT  &kp FSLH   &kp BSLH
  &magic 2 0    &kp HOME     &kp END     &kp LEFT  &kp ESC          &mt LSHFT BSPC  &kp MINUS   &mo 1     &mo 3   &mo 3  &mt LSHFT SPACE &kp RET   &kp DOWN  &kp LBKT  &kp RBKT  &kp PG_DN
             >;
         };
@@ -195,6 +195,17 @@
   &none  &kp LGUI  &kp LALT  &kp LCTRL   &none   &none                                                                  &kp LEFT   &kp DOWN     &kp UP  &kp RIGHT      &none   &none
   &none     &none     &none      &none   &none   &none      &none   &none   &none   &none   &none           &none          &none      &none      &none      &none      &none   &none
   &none     &none     &none      &none   &none          &kp LSHFT   &none   &none   &none   &none  &kp LS(LG(N4))                     &none      &none      &none      &none   &none
+            >;
+        };
+
+    layer_Qwerty {
+            bindings = <
+     &kp F1      &kp F2      &kp F3       &kp F4   &kp F5                                                                                          &kp F6     &kp F7    &kp F8    &kp F9    &kp F10
+      &none       &none       &none        &none    &none   &none                                                                           &none   &none      &none     &none     &none      &none
+  &kp GRAVE       &kp Q       &kp W        &kp E    &kp R   &kp T                                                                          &kp Y   &kp U      &kp I     &kp O  &kp P  &kp EQUAL
+    &kp TAB  &mt LGUI A  &mt LALT S     &mt LCTRL D  &lt 4 F   &kp G                                                                           &kp H   &kp J      &mt LCTRL K     &mt LALT L     &mt LGUI SEMI    &kp SQT
+    &lambda       &kp Z       &kp X        &kp C    &kp V   &kp B        &kp LPAR   &kp RPAR   &none  &kp RET  &to 0         &kp RBKT   &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH   &kp BSLH
+ &magic 2 0    &kp HOME     &kp END     &kp LEFT  &kp ESC          &mt LSHFT BSPC  &kp MINUS   &mo 1     &mo 3  &mt LSHFT SPACE &kp RET   &none &kp DOWN  &kp LBKT  &kp RBKT  &kp PG_DN
             >;
         };
 
